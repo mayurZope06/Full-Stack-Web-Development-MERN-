@@ -1,0 +1,4 @@
+rgb(255, 255, 255) -> color is white -> hexcode : #ffffff 
+
+yellow -> rgb(255, 255, 0) -> hexcode : #ffff00
+blue -> rgb(0, 0, 255) -> hexcode : #0000ff

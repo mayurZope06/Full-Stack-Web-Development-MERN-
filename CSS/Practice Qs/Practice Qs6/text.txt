@@ -1,0 +1,82 @@
+Q1. Color of h1 :
+    <h1 id="greet" class="myClass">Hello!</h1>
+
+    h1 {
+    color: pink;     /* element selector */
+    }
+
+    #greet {
+    color: yellow;   /* ID selector */
+    }
+
+    .myClass {
+    color: brown;    /* class selector */
+    }
+
+Ans. yellow.
+
+Q2. bg-color of p:
+    <div>
+        <p class="para">This is a paragraph.</p>
+    </div>
+
+    div p {
+    background-color: black;
+    }
+
+    .para {
+    background-color: blue;
+    }
+
+    p {
+    background-color: green;
+    }
+
+Ans. div p {
+    background-color: black; => Decendent Selector 0 0 2 (2)
+    }
+
+    .para {
+    background-color: blue; => Class Selector 0 1 0 (10)
+    }
+
+    p {
+    background-color: green; => Element Selector 0 0 1 (1)
+    }
+
+    Therefore, blue.
+
+Q3. For the given HTML & CSS code, what is the color of the text 'Hello World!'?
+    <div class="greetDiv">
+        <p class="greet">Hello World!</p>
+    </div>
+
+    div.greetDiv .greet {
+    color: green;
+    }
+
+    .greetDiv p.greet {
+    color: blue;
+    }
+
+    .greetDiv .greet {
+    color: red;
+    }
+
+Ans. div.greetDiv .greet {
+    color: green;               => 0 2 1 (21)
+    }
+
+    .greetDiv p.greet {
+    color: blue;                => 0 2 1 (21)
+    }
+
+    .greetDiv .greet {
+    color: red;                 => 0 2 0 (20)
+    }
+
+    Thus, because of same specificity we will use cascading property;
+    So color will be blue. 
+
+  
+

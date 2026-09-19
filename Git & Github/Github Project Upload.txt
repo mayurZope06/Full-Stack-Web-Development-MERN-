@@ -1,0 +1,155 @@
+PS D:\Delta 7.0\Project> git init
+Initialized empty Git repository in D:/Delta 7.0/Project/.git/
+PS D:\Delta 7.0\Project> git status
+On branch main
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .env
+        Atlas Credentials.txt
+        app.js
+        cloudConfig.js
+        controllers/
+        init/
+        middleware.js
+        models/
+        node_modules/
+        package-lock.json
+        public/
+        schema.js
+        utils/
+        views/
+
+nothing added to commit but untracked files present (use "git add" to track)
+PS D:\Delta 7.0\Project>
+                         touch .gitignore
+PS D:\Delta 7.0\Project>
+                         git status
+On branch main
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .gitignore
+        app.js
+        cloudConfig.js
+        controllers/
+        init/
+        middleware.js
+        models/
+        package-lock.json
+        package.json
+        package.json
+        package.json
+        package.json
+        public/
+        routes/
+        schema.js
+nothing added to commit but untracked files present (use "git add" to track)
+PS D:\Delta 7.0\Project> git add .
+warning: in the working copy of 'init/data.js', LF will be replaced by CRLF the nnothing added to commit but untracked files present (use "git add" to track)     nothing added to commit but untracked files present (use "git adnothing added to commit but untracked files present (use "nothinnothing addenothing added to commit but untracked files present (use "git add" to track)
+PS D:\Delta 7.0\Project> git add .
+warning: in the working copy of 'init/data.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'package-lock.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'package.json', LF will be replaced by CRLF the next time Git touches it
+PS D:\Delta 7.0\Project> git status
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   .gitignore
+        new file:   app.js
+        new file:   cloudConfig.js
+        new file:   controllers/listings.js
+        new file:   controllers/reviews.js
+        new file:   controllers/users.js
+        new file:   init/data.js
+        new file:   init/index.js
+        new file:   middleware.js
+        new file:   models/listing.js
+        new file:   models/review.js
+        new file:   models/user.js
+        new file:   package-lock.json
+        new file:   package.json
+        new file:   public/css/rating.css
+        new file:   public/css/style.css
+        new file:   public/images/web-icon.png
+        new file:   public/js/map.js
+        new file:   public/js/script.js
+        new file:   routes/listing.js
+        new file:   routes/review.js
+        new file:   routes/user.js
+        new file:   schema.js
+        new file:   utils/ExpressError.js
+        new file:   utils/wrapAsync.js
+        new file:   views/error.ejs
+        new file:   views/includes/flash.ejs
+        new file:   views/includes/footer.ejs
+        new file:   views/includes/navbar.ejs
+        new file:   views/layouts/boilerplate.ejs
+        new file:   views/listings/edit.ejs
+        new file:   views/listings/index.ejs
+        new file:   views/listings/new.ejs
+        new file:   views/listings/show.ejs
+        new file:   views/users/login.ejs
+        new file:   views/users/signup.ejs
+
+PS D:\Delta 7.0\Project> git commit -m "Add Project Files"
+[main (root-commit) ef8761c] Add Project Files
+ 36 files changed, 5576 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 app.js
+ create mode 100644 cloudConfig.js
+ create mode 100644 controllers/listings.js
+ create mode 100644 controllers/reviews.js
+ create mode 100644 controllers/users.js
+ create mode 100644 init/data.js
+ create mode 100644 init/index.js
+ create mode 100644 middleware.js
+ create mode 100644 models/listing.js
+ create mode 100644 models/review.js
+ create mode 100644 models/user.js
+ create mode 100644 package-lock.json
+ create mode 100644 package.json
+ create mode 100644 public/css/rating.css
+ create mode 100644 public/css/style.css
+ create mode 100644 public/images/web-icon.png
+ create mode 100644 public/js/map.js
+ create mode 100644 public/js/script.js
+ create mode 100644 routes/listing.js
+ create mode 100644 routes/review.js
+ create mode 100644 routes/user.js
+ create mode 100644 schema.js
+ create mode 100644 utils/ExpressError.js
+ create mode 100644 utils/wrapAsync.js
+ create mode 100644 views/error.ejs
+ create mode 100644 views/includes/flash.ejs
+ create mode 100644 views/includes/footer.ejs
+ create mode 100644 views/includes/navbar.ejs
+ create mode 100644 views/layouts/boilerplate.ejs
+ create mode 100644 views/listings/edit.ejs
+ create mode 100644 views/listings/index.ejs
+ create mode 100644 views/listings/new.ejs
+ create mode 100644 views/listings/show.ejs
+ create mode 100644 views/users/login.ejs
+ create mode 100644 views/users/signup.ejs
+PS D:\Delta 7.0\Project> git status
+On branch main
+nothing to commit, working tree clean
+PS D:\Delta 7.0\Project> 
+PS D:\Delta 7.0\Project> git remote add origin https://github.com/mayurZope06/Project.git
+PS D:\Delta 7.0\Project> git branch -M main
+PS D:\Delta 7.0\Project> git push -u origin main
+Enumerating objects: 52, done.
+Counting objects: 100% (52/52), done.
+Writing objects: 100% (52/52), 98.86 KiB | 3.66 MiB/s, done.
+Total 52 (delta 3), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (3/3), done.
+To https://github.com/mayurZope06/Project.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.

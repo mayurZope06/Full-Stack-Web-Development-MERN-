@@ -1,0 +1,25 @@
+// Qs. Declare your name as a string and print its length in JS.
+Ans.    let name = "Mayur Zope";
+        name.length
+
+// Qs. Declare your first name as a string and print its first character.
+Ans.    let firstName = "Mayur";
+        firstName[0]
+
+// Qs. Declare your first name as a string and print its last character.
+Ans.    firstName.length
+        firstName[6]
+
+        or
+
+        firstName[firstName.length - 1]
+
+// Qs. What is output of following code:
+// "apnacollege" + 123
+Ans.    "apnacollege123"
+
+// Qs. What are lengths of an empty string & a string with a single space?
+Ans. let empty = "";
+    empty.length //0
+    let space = " ";
+    space.length //1

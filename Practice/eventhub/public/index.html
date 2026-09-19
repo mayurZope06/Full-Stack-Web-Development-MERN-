@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>EventHub</title>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+
+  <body>
+    <!-- NAVBAR -->
+    <nav class="navbar">
+      <div class="logo">
+        <span>EventHub</span>
+      </div>
+
+      <ul class="nav-links">
+        <li><a href="/">Home</a></li>
+        <li><a href="#">Events</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+
+      <a href="/register.html" class="register-btn">Register</a>
+    </nav>
+
+    <!-- HERO -->
+    <section class="hero">
+      <h1>Discover & Join Exciting Events</h1>
+      <p>Browse upcoming events and register now</p>
+    </section>
+
+    <!-- EVENTS -->
+    <section class="events">
+      <!-- Event 1 -->
+      <div class="card">
+        <img
+          src="https://images.unsplash.com/photo-1519389950473-47ba0277781c"
+        />
+        <h2>Tech Workshop</h2>
+        <p>25 April</p>
+        <a href="/register.html">Register</a>
+      </div>
+
+      <!-- Event 2 -->
+      <div class="card">
+        <img
+          src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d"
+        />
+        <h2>Marketing Seminar</h2>
+        <p>30 April</p>
+        <a href="/register.html">Register</a>
+      </div>
+
+      <!-- Event 3 -->
+      <div class="card">
+        <img
+          src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f"
+        />
+        <h2>Startup Pitch Fest</h2>
+        <p>5 May</p>
+        <a href="/register.html">Register</a>
+      </div>
+
+      <!-- NEW EVENTS 👇 -->
+
+      <div class="card">
+        <img
+          src="https://images.unsplash.com/photo-1492724441997-5dc865305da7"
+        />
+        <h2>AI Bootcamp</h2>
+        <p>10 May</p>
+        <a href="/register.html">Register</a>
+      </div>
+
+      <div class="card">
+        <img
+          src="https://images.unsplash.com/photo-1515169067868-5387ec356754"
+        />
+        <h2>Web Dev Meetup</h2>
+        <p>15 May</p>
+        <a href="/register.html">Register</a>
+      </div>
+
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1556761175-4b46a572b786" />
+        <h2>UI/UX Workshop</h2>
+        <p>18 May</p>
+        <a href="/register.html">Register</a>
+      </div>
+    </section>
+
+    <!-- MODAL POPUP -->
+    <div id="modal" class="modal">
+      <div class="modal-content">
+        <h2>🎉 Registration Successful!</h2>
+        <p>You have successfully registered for the event.</p>
+        <button onclick="closeModal()">OK</button>
+      </div>
+    </div>
+
+    <script src="/script.js"></script>
+  </body>
+</html>
