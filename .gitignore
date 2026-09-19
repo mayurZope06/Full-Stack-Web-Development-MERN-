@@ -10,3 +10,22 @@ dist/
 Git & Github/mayurZope06/
 Git & Github/project2/
 Project/
+
+node_modules/
+dist/
+*.log
+*.env
+!important.log
+
+**/node_modules/
+
+node_modules/
+**/node_modules/
+dist/
+*.log
+*.env
+!important.log
+
+**/node_modules/
+**/.env
+*.log
